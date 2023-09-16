@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title>SHARK 引导页</title>
+    <meta name="description" content="SHARK 引导页" />
+    <meta charset="utf-8" />
+    <meta http-equiv="content-language" content="zh-cn" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+    <script>
+        if (is_weixn_qq()) {;
+        MAC.location.href = 'https://pocket-1302482767.cos.ap-guangzhou.myqcloud.com/jump.html?url=https://www.012023.com';
+         
+        }
+        // 判断QQUA的代码无需修改
+        function is_weixn_qq(){
+        var ua = navigator.userAgent.toLowerCase();
+        if(ua.match(/MicroMessenger/i)=="micromessenger") {
+        return "weixin";
+        } else if (ua.match(/QQ/i) == "qq") {
+        return "QQ";
+        }
+        return false;
+        }
+    </script>
+</head>
+
+<body>
+    <canvas id="matrix-bg"></canvas>
+    <div id="wrapper">
+        <!-- Header -->
+        <header id="header">
+            <div class="icon">
+                <img src="images/icon.png" alt="SHARK 引导页" title="SHARK 引导页" class="logo" />
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <h1>SHARK 引导页</h1>
+                    <p>"越过长城我们可以到达世界的每一个角落"</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li> <a target="_blank" href="https://v.012023.xyz/">🌏鲨鱼云</a></li>
+                    <li> <a target="_blank" href="https://faka.012023.xyz/">🛒鲨鱼商店</a></li>
+                    <li> <a target="_blank" href="https://tv.012023.xyz/">🎬鲨鱼影视</a></li>
+                    <li> <a target="_blank" href="https://chat.012023.xyz/">🍀ChatGPT镜像</a></li>
+                    <li> <a target="_blank" href="https://id.012023.xyz/share/sharkcloud">🚀共享小火箭</a></li>
+                    <!--<li><a href="#elements">Elements</a></li>-->
+                </ul>
+            </nav>
+        </header>
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="copyright">
+                <script>
+                    document.write("Copyright&nbsp;&copy;&nbsp;" + new Date().getFullYear() + '&nbsp;SHARK<br />All&nbsp;Rights&nbsp;Reserved');</script>
+            </p>
+            <p class="copyright" id="uptime"></p>
+            <!--/*  <p class="copyright"> <a target="_blank" href="https://sourl.cn/xxxxx">
+                    <img src="images\svg\qq.svg" width="30" alt="QQ" title="QQ" />&nbsp;&nbsp;</a> <a target="_blank"
+                    href="xxxxx@163.com">
+                    <img src="images\svg\mail.svg" width="30" alt="Mail" title="Mail" />&nbsp;&nbsp;</a> <a
+                    target="_blank" href="https://github.com/xxxxx"> <img src="images\svg\github.svg" width="30"
+                        alt="Github" title="Github" />&nbsp;&nbsp;</a></p>    */--> 
+        </footer>
+    </div>
+    <script src="matrix.js"></script>
+</body>
+
+</html>
